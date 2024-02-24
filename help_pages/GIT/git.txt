@@ -1,0 +1,5 @@
+
+# use git pull -r if you want rebase pull
+git config --global pull.ff only
+
+
