@@ -2,12 +2,18 @@
 
 # --------------------------------------------------------------------------------------
 
+
 ssh-keygen -t rsa -b 4096 -C ""
 
 # -C ""   means no comment
 # -N ""   means no password, otherwise it will ask
 
+
+# As of 2024 rsa 4096 is pretty good to use IMO. sha1 is broken, and an old scheme w/
+# rsa and sha1 existed in openssh 7.2 or earlier, thats been superceded by sha256 and
+# 512 and new SSH will just use it. however connecting to SSH 8 from 6 may not work.
 # --------------------------------------------------------------------------------------
+
 
 
 
