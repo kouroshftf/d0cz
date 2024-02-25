@@ -1,0 +1,62 @@
+{
+    // -----------------------------------------------------------------------------------------------------------------
+    // "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "files.eol": "\n",
+    "editor.renderControlCharacters": true,
+    "breadcrumbs.enabled": false,
+    "editor.formatOnPaste": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    // -----------------------------------------------------------------------------------------------------------------
+    // --------------------------------------------------------------------------------------------------------- Exclude
+    // dont show these files in the explorer.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.factorypath": true,
+        "**/.settings": true,
+        "**/__pycache__": true
+    },
+
+    // -----------------------------------------------------------------------------------------------------------------
+    "workbench.colorCustomizations": {
+        "editor.background": "#0a0a0a",
+        "editorRuler.foreground": "#555",
+        "editor.foreground": "#bbb"
+    },
+    "window.zoomLevel": 0.5,
+    // "editor.fontFamily": "Fira Code Retina",
+    "editor.fontFamily": "Fira Code medium",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+    "workbench.sideBar.location": "left",
+    "editor.rulers": [
+        120,
+        140
+    ],
+    // -----------------------------------------------------------------------------------------------------------------
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    },
+
+    // -----------------------------------------------------------------------------------------------------------------
+    // setting this to true, will underline links and allow you to alt+click them to launch a browser.
+    "editor.links": false,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "window.restoreWindows": "none"
+}
